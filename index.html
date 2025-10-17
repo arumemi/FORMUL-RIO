@@ -8,35 +8,20 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <section container="content"> 
-    <div><h1>FORMULÁRIO DE INSCRIÇÃO</h1></div>
-      <div> <h5>Primeiro Nome</h5>
-      <input type="text" id="name" placeholder="primeiro nome">
-      </div>
+   <form class="contact-form">
+      <h2>Entre contacto com nos</h2>
+      <label for="nome">NOME COMPLETO</label>
+      <input type="text" id="nome" placeholder="Digite seu nome" required>
 
-      <div> <h5>Sobrenome</h5>
-      <input type="text" id="name" placeholder="primeiro nome">
-      </div>
-   </section>
-   <section>
-      <div> <p>e-mail</p>
-      <input type="text" id="name" placeholder="primeiro nome">
-      </div>
-   </section>
-      <section>
-      <div> <p>Senha</p>
-      <input type="text" id="name" placeholder="primeiro nome">
-      </div>
-   </section>
-   <section>
-      <div> <p>Confirme sua senha</p>
-      <input type="text" id="name" placeholder="primeiro nome">
-      </div>
-   </section>
-   <section>
-     <button id="submit" onclick="">Enviar</button>
-   </section>
+    <label for="email">E-mail</label>
+      <input type="text" id="nome" placeholder="Digite seu email" >
 
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" placeholder="Digite seu senha"required>
+
+       <input type="password" id="senha" placeholder="confirme sua senha" required>
+      <button type="submit" onclick="">ENVIAR</button>
+   </form>
 
 
    <script src="index.js"></script>
