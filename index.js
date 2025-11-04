@@ -5,8 +5,8 @@
    */
 
   // Fetch all the forms we want to apply custom validation styles to
-  const forms = document.querySelectorAll(".needs-validation");
-  const result = document.getElementById("result");
+  const forms = document.querySelectorAll(".nome");
+  const result = document.getElementById("password");
   // Loop over them and prevent submission
   Array.prototype.slice.call(forms).forEach(function (form) {
     form.addEventListener(
